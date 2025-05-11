@@ -1,0 +1,290 @@
+*body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff;
+  }
+  
+  /* ÜST BAŞLIK */
+  header {
+    background-color: #fdfdfd; 
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* MENÜ */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffffff; 
+  }
+  main {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  main h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  main ul {
+    list-style-type: square;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 30px;
+  }
+  
+  /* ALT KISIM */
+  footer {
+    background-color: #364f6b;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+  }
+  
+  .gorsel-kapsayici {
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+  .görsel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .görsel img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  
+  .görselimg:hover {
+    transform: scale(1.05);
+  }
+  .görsel {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  
+  .görsel1 img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(10, 136, 120);
+    transition: transform 0.3s ease;
+  }
+  
+  .görsel1 img:hover {
+    transform: scale(1.05);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #000000;
+}
+
+.product button {
+    background-color: #078f8b;
+    border: none;
+    padding: 10px 20px;
+    color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #000000;
+}
+header {
+  background-color: #0379b8; /* Mavi-gri ton */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #ffffff; /* Kenarlık eklendi */
+}
+header {
+  background-color: #015781; /* Mavi-gri ton */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-top: 4px solid #03569f; /* Üst kenarlık eklendi */
+  border-bottom: 4px solid #ffffff; /* Alt kenarlık */
+}
+
+body {
+  background-image: url('mavi.png'); /* Fotoğrafı buraya ekle */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+body.anasayfa {
+  color: white;
+}
+
+body.anasayfa .product p,
+body.anasayfa .product h3 {
+  color: white;
+}
+
+body.kadin{
+  color: rgb(0, 0, 0);
+}
+
+body.kadin .product p,
+body.kadin .product h3 {
+  color: rgb(0, 0, 0);
+}
+
+body.erkek{
+  color: white;
+}
+
+body.erkek.product p,
+body.erkek  .product h3 {
+  color: white;
+}
+
+body.aksesuar{
+  color: rgb(0, 0, 0);
+}
+body h2
+{
+  color: rgb(0, 0, 0);
+}
+
+body.aksesuar .product p,
+body.aksesuar.product h3 {
+  color: rgb(0, 0, 0);
+}
+
+body.cocuk{
+  color: rgb(0, 0, 0);
+}
+body p{
+  color:#000000;
+}
+
+body.cocuk .product p,
+body.cocuk .product h3 {
+  color: rgb(0, 0, 0);
+}
+
+body.hakkimizda{
+  color: white;
+}
+
+body.hakkimizda .product p,
+body.hakkimizda .product h3 {
+  color: white;
+}
+body.urunler{
+  color: white;
+}
+
+body.urunler.product p,
+body.urunler.product h3 {
+  color: white;
+}
+
+body.kampanyalar{
+  color: white;
+}
+
+body.kampanyalar .product p,
+body.kampanyalar .product h3 {
+  color: white;
+}
+body.iletisim{
+  color: white;
+}
+
+body.iletisim .product p,
+body.iletisim .product h3 {
+  color: white;
+}
+
