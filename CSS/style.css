@@ -12,11 +12,17 @@
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    
   }
   
   header h1 {
     margin: 0;
     font-size: 2em;
+      
+  }
+a {
+   text-decoration:none
+      
   }
   
   /* MENÜ */
